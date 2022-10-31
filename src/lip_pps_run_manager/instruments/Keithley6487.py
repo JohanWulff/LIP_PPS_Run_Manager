@@ -44,5 +44,5 @@ class Keithley6487(VISADevice):
     def set_source_current_limit(self, limit: float) -> bool:
         pass
 
-    def safe_shutdowm(self):
+    def safe_shutdown(self):
         pass
